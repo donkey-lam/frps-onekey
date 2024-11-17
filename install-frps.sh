@@ -8,14 +8,12 @@ export PATH
 export FRPS_VER="$LATEST_RELEASE"
 export FRPS_VER_32BIT="$LATEST_RELEASE"
 export FRPS_INIT="https://raw.githubusercontent.com/mvscode/frps-onekey/master/frps.init"
-export gitee_download_url="https://gitee.com/mvscode/frps-onekey/releases/download"
 export github_download_url="https://github.com/fatedier/frp/releases/download"
-export gitee_latest_version_api="https://gitee.com/api/v5/repos/mvscode/frps-onekey/releases/latest"
-export github_latest_version_api="https://api.github.com/repos/fatedier/frp/releases/latest"
+export github_latest_version_api="https://api.github.com/repos/fatedier/frp/releases/v0.51.3"
 
 # Program information
 program_name="frps"
-version="1.0.7"
+version="0.51.3"
 str_program_dir="/usr/local/${program_name}"
 program_init="/etc/init.d/${program_name}"
 program_config_file="frps.toml"
